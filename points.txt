@@ -1,0 +1,42 @@
+Avo Automation
+Product Engineer - Aug 2023 to Present
+Worked in a 10-member product team, collaborating closely with the CTO, architects, and leads to deliver backend and data solutions across key projects.
+
+iTDM – intelligent Test Data Management Platform (Python, Flask, PySpark):
+
+Built RESTful APIs using Python Flask and developed connectors for SQL and NoSQL databases, streamlining test data provisioning across teams.
+
+Implemented dynamic data masking for MySQL and PostgreSQL to enhance data security and support governance policies.
+
+Processed user logs and metrics using EDA methods, storing insights in MongoDB and MySQL to improve data traceability and reporting.
+
+Avo Assure (Node.js):
+
+Helped stabilize and refactor backend APIs, improving performance and reliability for business-critical modules.
+
+Additional Contributions:
+
+Led MongoDB data migrations from legacy to new schema for live customer environments with zero downtime.
+
+Managed CI/CD pipelines in Azure DevOps, improving deployment speed and system reliability.
+
+
+Mindtree Ltd 
+Software Engineer - Nov 2018 to May 2021
+Shared Services – Database & Linux Server Management:
+Supported enterprise-wide environments by handling core database operations (backups, restores, patching, access control) and Linux server health monitoring, ensuring high system reliability and SLA compliance.
+
+Collaborated with infrastructure and support teams to maintain performance across dev, test, and production environments—documenting recurring issues and automating routine ops where possible.
+
+Backend Development Projects – AkzoNobel & P&G(Python, Flask, CMS):
+Designed and developed 15+ RESTful APIs using Python Flask, supporting content delivery and CMS integrations across 90+ global websites.
+
+Integrated with Sitecore, Drupal, and Contentful to enable dynamic content rendering in 12+ languages, cutting manual content deployment effort by 40%.
+
+Secured APIs through IP whitelisting and cloud security groups, reducing unauthorized access incidents by over 60%.
+
+Built reusable modules and microservices to improve architecture and reduce new feature development time by 30%.
+
+Collaborated in Agile teams, reviewed 20+ pull requests per sprint, and partnered with frontend and DevOps teams to ensure smooth, zero-downtime deployments.
+
+Enhanced logging, monitoring, and test automation—bringing MTTR down from 4 hours to under 1, with 85% test coverage for backend services.
