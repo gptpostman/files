@@ -1,0 +1,79 @@
+example to explain to interviewer for developer related experience:
+
+Scenario: Global Content API Rollout for AkzoNobel Marketing Sites
+“One of the most impactful projects I worked on was a backend revamp for AkzoNobel’s global marketing websites. The goal was to unify how content was delivered across 90+ regional websites, each serving different languages and market-specific content, while allowing the marketing team to manage everything through a CMS — primarily Sitecore and Drupal.
+
+Here’s how I contributed:
+
+API Design and Development:
+I designed and built a suite of around 15 RESTful APIs using Python Flask, which acted as a middleware between the CMS platforms and the frontend applications. These APIs handled requests for product content, banner assets, localized copy, and dynamic UI components.
+
+CMS Integration:
+I worked closely with the Sitecore and Drupal teams to map out content structures and created flexible API endpoints that could ingest content from either system. The APIs standardized the output into a uniform schema, allowing frontend teams to integrate faster. This reduced page rollout time by around 40%, especially for localized campaigns.
+
+Security and Access Controls:
+To protect these APIs in a multi-region setup, I implemented IP whitelisting and configured security groups for inbound/outbound traffic in the cloud environment (AWS). This significantly cut down on unauthorized scan traffic — in fact, we saw a 60% drop in flagged access attempts within the first quarter.
+
+Reusability and Microservices:
+I built reusable modules (e.g., content fetcher, localization handler, image optimizer) and split larger services into smaller Flask blueprints/microservices. This made the codebase more maintainable and allowed other teams to plug in without duplicating logic, reducing new feature development time by ~30%.
+
+Agile and DevOps Collaboration:
+We followed Agile sprints; I participated in daily stand-ups, handled backend PRs (20+ per sprint), and coordinated with DevOps to automate deployments using GitLab CI/CD pipelines. Our efforts led to consistent, zero-downtime releases, even during major content updates.
+
+Monitoring and Stability Improvements:
+I implemented structured logging and integrated alerts with our monitoring stack (ELK + custom dashboards). After this, we reduced the mean time to resolve backend issues from over 4 hours to under 1 hour, and our automated test coverage hit 85%, making the system far more stable and test-friendly.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Example API: Localized Product Content API for AkzoNobel
+“Sure. One of the key APIs I developed was the Localized Product Content API for AkzoNobel’s consumer-facing websites. The purpose was to serve product data (like paint names, features, images, safety documents, etc.) in the user’s preferred language and region. This API was critical because the same product could have different descriptions, branding, or regulatory labels depending on the country.
+
+Here’s how I approached it:
+
+Endpoint Design:
+The endpoint followed a structure like:
+GET /api/v1/products/{product_id}?lang=en&market=nl
+
+This allowed the frontend to fetch a specific product, localized for a given language and country.
+
+Data Source:
+The content itself was managed in Sitecore, but not all regions used the same CMS. I built a layer in Flask that pulled content via Sitecore’s REST API or from fallback JSON feeds when needed.
+
+Data Normalization:
+Since different markets had slightly different content structures, I created a transformation layer that standardized the output schema — regardless of source. This made it easy for frontend teams to work with one consistent JSON structure across all websites.
+
+Caching and Performance:
+I used Redis to cache frequently requested product data by market and language. This reduced API latency from over 500ms to under 150ms in most regions.
+
+Security & Rate Limiting:
+I added rate limiting using Flask-Limiter and restricted access to known frontend servers via IP allowlists configured in cloud security groups.
+
+Error Handling & Logging:
+All requests were logged using structured JSON format, and we monitored error rates via the ELK stack. I added graceful fallbacks — for example, if localized content was missing, the API would fall back to the default English version with a warning.
+
+This API alone served over 60% of our site traffic, especially during new product launches and seasonal campaigns. It was key in improving user experience and driving consistency across 90+ websites.”
+
+
+
+==========================================================================================================================================================================================
+
+example to explain to interviewer for shared services related experience:
+
+Scenario: Supporting UAT and Production Environments for AkzoNobel Shared Services
+“In the shared services team for AkzoNobel, I was primarily responsible for maintaining the health and availability of both UAT and production environments used by multiple development teams across regions.
+
+One real example was during a performance issue reported on a staging environment that supported a major internal rollout. My role involved the following:
+
+Initial Diagnosis:
+I connected to the Linux server and used tools like top, vmstat, and iostat to identify abnormal memory usage and I/O waits. I correlated this with high CPU consumption on the database side.
+
+Database Health Check & Cleanup:
+I ran checks on the Oracle/PostgreSQL database and found that one of the nightly batch jobs hadn’t cleared temporary tables due to a failed trigger. I performed manual cleanup and re-indexed critical tables.
+
+Preventive Fix:
+I patched the procedure and coordinated with the development team to fix the underlying trigger logic in the next sprint.
+
+Documentation & Monitoring Update:
+I documented the incident, added a new alert rule in MWatch for temp table size thresholds, and worked with the monitoring team to add logs to the SLA dashboards.
+
+It may not have involved writing application logic, but this work directly impacted deployment success and application uptime for critical systems. My role ensured that devs could build and release without worrying about the environment or infra failing underneath.”
