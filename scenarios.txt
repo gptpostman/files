@@ -77,3 +77,8 @@ Documentation & Monitoring Update:
 I documented the incident, added a new alert rule in MWatch for temp table size thresholds, and worked with the monitoring team to add logs to the SLA dashboards.
 
 It may not have involved writing application logic, but this work directly impacted deployment success and application uptime for critical systems. My role ensured that devs could build and release without worrying about the environment or infra failing underneath.”
+
+
+===============================================================================================================================================================
+
+"I’ve had a great experience at Avo Automation—working on backend systems, API development, data masking, and large-scale data migrations. It’s given me solid exposure to real-world projects and cross-functional collaboration. That said, I’m now looking for an opportunity where I can take on more complex engineering challenges, grow in a product-driven environment, and deepen my expertise in backend architecture and scalable systems. I’m especially interested in roles that offer a balance of technical depth and ownership."
