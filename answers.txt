@@ -1,0 +1,46 @@
+1. Current Salary (Fixed + Variable):
+Fixed:7.36lpa + Variable:38k 
+Total CTC: 7.75lpa
+
+2. Expected Salary:
+Expected: 14lpa or 90-100% hike on current CTC
+
+3. How soon can you join if shortlisted?
+30 days from the date of resignation
+
+4. Why are you leaving your current organization? 
+I’ve had a positive experience at Avo Automation, but now I’m looking for new challenges where I can grow technically, work on more diverse backend systems, and be part of a product-driven team with greater ownership and long-term vision.
+
+5. Why do you want to join DBSync - Avankia?
+I'm interested in joining DBSync because the nature of its work around data integration and automation closely aligns with what I’ve been doing in my current role on the iTDM platform. I’ve worked on building scalable APIs, connecting to various data sources (SQL, NoSQL, file systems), and implementing data masking and transformation logic. The overlap in technical domains excites me, as I believe I can contribute meaningfully from day one while continuing to grow in a more product-focused, innovation-driven environment.
+
+6. Are you open to working in the U.K. shift (01:30 PM to 10:30 PM IST)?
+Yes I am ok to work in U.K shift
+
+7. How comfortable are you with Python libraries and frameworks such as Django or Flask?
+I’m highly comfortable with Flask as I have been using it extensively for developing RESTful APIs in projects I have worked on so far. I’ve also explored Django, but most of my professional work has been with Flask due to its lightweight and modular architecture.
+
+8. Have you worked on any projects involving Large Language Models using the Langchain Library in Python?
+Not in a production environment yet, but I’ve been exploring langchain in my own time—mostly experimenting with how it connects different LLM components for tasks like text summarization and basic question answering. With my background in Python and backend development, I’ve found the learning curve pretty manageable, and I’m confident I could ramp up quickly on a real-world project.
+
+9. Can you describe any experience you have building AI agents using LangGraph? Specifically, what use case did you implement, and how did you design the agent’s state transitions and decision logic?
+I haven’t worked hands-on with langgraph just yet, but I’ve read through the architecture and understand the idea of managing agents through stateful transitions.
+
+10. How do you use Git and version control tools within collaborative development environments, particularly for Python and Java projects?
+I use Git for version control—branching for features, squash commits for clean history, rebasing, and resolving merge conflicts.
+
+11. Can you walk us through your experience applying object-oriented programming principles in Python to build reusable, maintainable systems?
+I’ve applied OOP principles mainly while building backend services in flask. For example, I structure APIs using classes to separate concerns—like having dedicated classes for database access, data masking, and validation logic. This makes it easier to reuse components across endpoints and keeps the code base cleaner as it grows. I also use inheritance when creating base utility classes for common tasks like error handling or response formatting. Overall, I try to balance OOP with Python’s simplicity—keeping things modular, testable, and easy for others on the team to work with.
+
+12. Have you worked on any projects that required integrating Python with other technologies or systems?
+I’ve built Python-based APIs that integrate with CMS platforms like Sitecore, Drupal and databases like MySQL, PostgreSQL, MongoDB, file systems. I’ve also implemented data masking and migration tools that bridge between Python services and third-party systems.
+
+13. How do you ensure code quality and maintainability in your Python projects?
+I follow best practices like modular design, writing unit tests, adhering to PEP8 standards, using linters, and conducting thorough code reviews. CI pipelines can also be used to run test and lint checks automatically.
+
+14. Can you walk me through your process for optimizing Python code for performance?
+I typically begin with profiling tools like cprofile or line profiler to identify bottlenecks. I then optimize logic, use efficient data structures, reduce redundant database calls, and cache responses when appropriate. I also avoid unnecessary I/O operations in performance-critical paths.
+
+15. Are you in Bangalore? If not, are you willing to relocate to Bangalore?
+Yes I am residing in Bangalore.
+
