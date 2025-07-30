@@ -1,0 +1,9 @@
+“Currently, I’m working at Avo Automation as a Backend & DevOps Engineer, contributing across two major projects.
+
+The first is a Test Data Management platform where I’ve been building RESTful APIs using Python and Flask. A key part of my work involves integrating with various data sources—SQL, NoSQL, and file systems—to streamline test data provisioning. I also implemented dynamic data masking for MySQL and PostgreSQL to improve security and data governance. We use PySpark for data engineering tasks, and I work closely with the product team and architects on overall system design.
+
+The second project is a platform called BVO Bssure, where I’ve been focused on stabilizing Node.js APIs and improving their reliability for production use.
+
+Apart from development, I’m also involved in DevOps tasks like managing CI/CD pipelines in Azure DevOps and handling large-scale MongoDB data migrations from legacy to new schemas—mostly for production environments.
+
+Overall, my role is quite hands-on and spans backend development, data handling, security, and deployment automation.”
