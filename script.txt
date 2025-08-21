@@ -7,3 +7,13 @@ The second project is a platform called BVO Bssure, where I’ve been focused on
 Apart from development, I’m also involved in DevOps tasks like managing CI/CD pipelines in Azure DevOps and handling large-scale MongoDB data migrations from legacy to new schemas—mostly for production environments.
 
 Overall, my role is quite hands-on and spans backend development, data handling, security, and deployment automation.”
+
+======================================================================================
+
+I'm a Software Engineer with over 4 years of experience in building scalable, high-performance systems for data-driven applications. Skilled in Python,PySpark,Flask,SQL,MySQL and DevOps, I focus on writing efficient, maintainable and optimized code.
+
+I have hands-o experience with Docker, Kubernetes and Azure, ensuring seamless deployments and scalabale infrastructure. Security and compliance (GDPR,CCPA) are key aspects of my work.
+
+At Avo Automation, I contribute to iTDM, a test data management product, working on data masking and secure data access. Previously, at Mindtree, I developed Python based applications to support content delivery and CMS integrations for various clients.
+
+I thrive on solving complex challenges, optimizing workflows and collaborating with cross-functional teams. Always open to dicussions on software development, microservices and data-driven solutions.
