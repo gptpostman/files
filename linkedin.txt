@@ -1,0 +1,52 @@
+linkedIn profile:
+changes:
+changes made in linkedin for the sake of SAP role.
+
+====================
+* under profile picture this was there
+Product Engineer at Avo Automation | Python Developer | DevOps | Data Engineering | Data Science | Analytics
+====================
+
+* under about this was there 
+I’m a backend developer with hands-on experience building scalable APIs, integrating with CMS platforms, and working across complex data environments. With a strong foundation in Python (Flask), Node.js, and SQL/NoSQL systems, I focus on delivering backend solutions that are secure, efficient, and production-ready.
+
+At Avo Automation, I’ve contributed to backend development, data masking, and CI/CD implementation across two major platforms—working closely with product leads, architects, and DevOps engineers to support customer-facing environments and large-scale data migrations.
+
+Previously, I led API development for global CMS integrations across 90+ websites at AkzoNobel and P&G, helping teams improve content delivery, security, and system reliability.
+
+I enjoy working in cross-functional teams, solving real-world problems, and continuously improving system performance through automation and clean architecture.
+
+====================
+
+* under experience for avo this was there
+
+- Worked in a 6-member development team, collaborating closely with the CTO, architects, and leads to deliver backend and data solutions across key projects.
+iTDM – intelligent Test Data Management Platform (Python, Flask, PySpark):
+- Built RESTful APIs using Python Flask and developed connectors for SQL and NoSQL databases, streamlining test data provisioning across teams.
+- Implemented dynamic data masking for MySQL and PostgreSQL to enhance data security and support governance policies.
+- Processed user logs and metrics using EDA methods, storing insights in MongoDB and MySQL to improve data traceability and reporting.
+Avo Assure (Node.js):
+- Helped stabilize and refactor backend APIs, improving performance and reliability for business-critical modules.
+Additional Contributions:
+- Led MongoDB data migrations from legacy to new schema for live customer environments with zero downtime.
+- Managed CI/CD pipelines in Azure DevOps, improving deployment speed and system reliability.
+
+
+under avo skills these were there
+python, flask, spark, fastapi, multithreading, RDBMS, git, NodeJs, MongoDB, CI/CD, Microsoft Azure
+
+
+under experience for mindtree this was there
+Shared Services – Database & Linux Server Management:
+- Supported enterprise-wide environments by handling core database operations (backups, restores, patching, access control) and Linux server health monitoring, ensuring high system reliability and SLA compliance.
+- Collaborated with infrastructure and support teams to maintain performance across dev, test, and production environments—documenting recurring issues and automating routine ops where possible.
+Development Projects (Backend) – AkzoNobel & P&G(Python, Flask, CMS):
+- Designed and developed 15+ RESTful APIs using Python Flask, supporting content delivery and CMS integrations across 90+ global websites.
+- Integrated with Sitecore, Drupal, etc., to enable dynamic content rendering in 12+ languages, cutting manual content deployment effort by significantly.
+- Secured APIs through IP whitelisting and cloud security groups, reducing unauthorized access incidents by over 60%.
+- Collaborated in Agile teams and partnered with frontend and DevOps teams to ensure smooth, zero-downtime deployments.
+- Enhanced logging, monitoring, and test automation—bringing MTTR down from 4 hours to under 1, with 85% test coverage for backend services.
+
+
+under mindtree skills this was there
+python, flask, restapi ,Linux server, rdbms, sql, Microsoft azure, service now, jira
